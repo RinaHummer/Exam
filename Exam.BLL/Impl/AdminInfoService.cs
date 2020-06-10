@@ -7,15 +7,19 @@ using System.Threading.Tasks;
 
 namespace Exam.BLL.Impl
 {
-    class RoomManager : IRoomManager
+    class AdminInfoService : IAdminInfoService
     {
-        private IProductRepository prodRepo;
-        public void AddProductToRoom(Product p, Room r, int count)
+        public void AddProduct(Product p, string warehouse)
         {
             throw new NotImplementedException();
         }
 
-        public int GetProductCount(Product p)
+        public void DeleteProduct(Product p)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GetSumCost()
         {
             throw new NotImplementedException();
         }

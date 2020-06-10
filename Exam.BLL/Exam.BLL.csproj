@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Impl\AdminInfoService.cs" />
     <Compile Include="Impl\RoomManager.cs" />
     <Compile Include="Interfaces\IAdminInfoService.cs" />
     <Compile Include="Interfaces\IRoomManager.cs" />

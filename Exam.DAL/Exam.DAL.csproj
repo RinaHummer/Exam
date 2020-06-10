@@ -42,6 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryImpl\ProductRepository.cs" />
+    <Compile Include="RepositoryImpl\Repository.cs" />
+    <Compile Include="RepositoryInterface\IProductRepository.cs" />
+    <Compile Include="RepositoryInterface\IRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

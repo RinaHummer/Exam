@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exam.BLL.Interfaces
 {
-    interface IAdminInfoService
+    public interface IAdminInfoService
     {
-        void Get
+        void GetSumCost();
+        void AddProduct(Product p, string warehouse);
+        void DeleteProduct(Product p);
+
     }
 }

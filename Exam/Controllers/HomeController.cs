@@ -8,6 +8,8 @@ namespace Exam.Controllers
 {
     public class HomeController : Controller
     {
+        private IRoomManage manager;
+        private IAdminInfoService adminServ;
         public ActionResult Index()
         {
             return View();
